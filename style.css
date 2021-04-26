@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+}
+
+div.div_rect{
+	background-color: white;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	width: 40%;
+	height: 80%;
+	border: 5px solid black;
+	border-radius: 30px;
+	box-shadow: 25px 25px gray;
+
+
+}
+
+
+h2.titre_form{
+	color: black;
+
+}
+
+img.img_home{
+	width: 6%;
+	height: 6%;
+	padding-left: 93%;
+	padding-top: 1%;
+}
+
+img.FlyBlue{
+	position: absolute;
+	top: 1%;
+	left: 0.5%;
+	width:  10%;
+	height: 12.5%;
+	border: 5px solid ;
+	border-radius: 30px;
+	box-shadow: 5px 5px gray;
+	
+
+}
