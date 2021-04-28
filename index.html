@@ -13,12 +13,57 @@
 	<div class="div_rect">
 
 		<h2 class="titre_form">Formulaire de Connexion FlyBlue</h2>
-		<form>
+		<form class="formco">
+			<div class="form_rect">
 
+				<input type="text" name="identifiant" id="identifiant" placeholder="        Votre identifiant personnel..." required>
+
+				<input type="password" name="mdp" id="mdp" placeholder="        Votre mot de passe secret..." required>
+
+				<button name="seco" class="seco" id="seco" > Se Connecter </button>
+
+				<span class="new">
+					<b>
+						Vous êtes nouveau ? Inscrivez-vous ---> 
+					</b>
+				</span>
+
+				<button class="sinscrire" id="sinscrire">
+					<b>
+						S'inscrire	
+					</b>				
+				</button>
+			</div>
+
+		</form>
+
+		
+
+		<form class="formnew">
+			<div class="formnew_rect">
+
+				<input type="text" name="nom" id="nom" placeholder="     Votre Nom d 'Utilisateur" required>
+				<input type="password" name="psswrd" id="psswrd" placeholder="     Définissez un Mot de Passe" max="10" min="4" required>
+				<button class="validnew" onclick="defnewid()">
+					Valider et s'inscrire
+				</button>
+
+				<span class="affid" id="affid">
+					Votre identifiant :
+
+					
+				</span>
+				<span class="affid2" id="affid2">
+					
+
+					
+				</span>
+			</div>
+			
 		</form>
 	</div>
 
 	
-
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
